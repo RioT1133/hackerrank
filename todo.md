@@ -1,11 +1,8 @@
-#migratory-birds
-##done
+# ~~migratory-birds~~
 
-#picking-numbers
-##done
+# ~~picking-numbers~~
 
-#kangaroo
-##done
+# ~~kangaroo~~
 
-#circular-array-rotation
-##add output, functionality is done
+# circular-array-rotation
+    need to add output formatting, function is ready
