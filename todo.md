@@ -7,5 +7,6 @@
 ~~kangaroo~~
 > done
 
-circular-array-rotation
+~~circular-array-rotation~~
 > need to add output formatting, function is ready
+> done
