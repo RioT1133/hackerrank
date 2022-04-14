@@ -8,13 +8,19 @@ n = nkq[0]
 k = nkq[1]
 q = nkq[2]
 
-for i in range(n): # getting all the queries
+k = k % n
+
+for i in range(q): # getting all the queries
     element = int(input())
     queries.append(element)
 
-def rotate_array(a, n): # rotates array a n times (surely there's a way to do it without loops)
-    r = [a[-i] for i in range(1, n+1)]
-    for i in a[:-n]:
-        r.append(i)
+def rotate_array(_a, _n): # rotates array a n times (surely there's a way to do it without loops)
+    r = [_a[-i] for i in range(_n, 0, -1)]
+    for i in range(0, len(_a) -len(r)):
+        r.append(a[i])
     return r
 
+rotated = rotate_array(a, k)
+
+for i in range(q):
+    print(rotated[queries[i]])
